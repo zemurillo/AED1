@@ -2,7 +2,8 @@
 
 void bubbleSort(char vetor[], int n) {
     int trocas = 0;
-    int i, j, temp;
+    int i, j;
+	char temp;
 
     // Exibe o vetor original
     for (i = 0; i < n; i++) {
@@ -40,7 +41,6 @@ void bubbleSort(char vetor[], int n) {
 
     // Exibe a quantidade de trocas realizadas
     printf("Trocas: %d\n", trocas);
-    printf("\n");
 }
 
 int main() {
